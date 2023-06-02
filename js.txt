@@ -1,0 +1,40 @@
+Materi java script
+Dom{Document object Model}
+-Dom selection:
+-Dom manipulation
+-Dom traversal
+-Event handling
+-Studi kasus
+
+Tipe-tipe node{
+    1.elemen
+    2.attribute
+    3.text
+    4.cd data
+    5.entity data
+    6.entity
+    7.procsessing data
+    8.Comment
+    9.Document
+    10.Document type
+    11.Document Fragment
+    12.Notation
+}
+istilah istilah untuk sesuatu{
+    -node list=lita menyeleksi colom banyak tapi tidak sama nilai
+    -html collection=kita menyeleksi seluruh kolom secara sama dalam nilainya
+    -node=menyeleksi node satu dan 
+}
+Perbedaan antara Nodelist vs HTML COllection{
+    -keduanya merupakan kumpulan node
+    -struktur datanya mirip aray
+    -Nodelist dapat berisi node apapun ,sedangkan HTMLCollection harus  berisi elemen html
+    -HTMLCollection bersifat live sedangkan nodelist tidak
+}
+STRUKTUR HIERARKI DOM 
+Root node
+-node yang menjadi sumber  dari semua node lain di dalam node
+-Document
+Parent node
+-node yang berada 1 tingkat di atas node yang lain
+-body adalah parent dari h1,p,p,div dan a 
