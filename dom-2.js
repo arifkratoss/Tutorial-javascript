@@ -15,14 +15,75 @@ function getHasil (comp, player){
         return ( comp == 'orang' ) ? 'KALAH' : 'MENANG!';
     
 }
+// const pilihan =document.querySelectorAll('.li img');
+// pilihan.forEach(function (pil) {
+//    pil.addEventListener ('click',function (){
+//   const pilihanComputer = getpilihanComputer();
+//   const pilihanPlayer = pil.className;
+//   const hasil =getHasil(pilihanComputer ,pilihanPlayer);
+  
+//   const imgComputer = document.querySelector('.img-komputer');
+//   imgComputer.setAttribute('src', '' + pilihanComputer + '.png');
+//    const info =document.querySelector('.info');
+//    info.innerHTML =hasil;
+//    })
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const pGajah = document.querySelector('.gajah');
 pGajah.addEventListener('click', function() {
   
   const pilihanComputer = getpilihanComputer();
   const pilihanPlayer = pGajah.className;
   const hasil =getHasil(pilihanComputer ,pilihanPlayer);
-  const imgComputer =document.querySelector('.img-komputer');
-  imgComputer.setAttribute('src', 'img/' +pilihanComputer + '.png')
-
-
+  
+  const imgComputer = document.querySelector('.img-komputer');
+  imgComputer.setAttribute('src', '' + pilihanComputer + '.png');
+   const info =document.querySelector('.info');
+   info.innerHTML =hasil;
+  
 });
+const pOrang = document.querySelector('.orang');
+pOrang.addEventListener('click', function() {
+  
+  const pilihanComputer = getpilihanComputer();
+  const pilihanPlayer = pGajah.className;
+  const hasil =getHasil(pilihanComputer ,pilihanPlayer);
+  
+  const imgComputer = document.querySelector('.img-komputer');
+  imgComputer.setAttribute('src', '' + pilihanComputer + '.png');
+   const info =document.querySelector('.info');
+   info.innerHTML =hasil;
+  
+});
+const pSemut = document.querySelector('.semut');
+pSemut.addEventListener('click', function() {
+  
+  const pilihanComputer = getpilihanComputer();
+  const pilihanPlayer = pGajah.className;
+  const hasil =getHasil(pilihanComputer ,pilihanPlayer);
+  
+  const imgComputer = document.querySelector('.img-komputer');
+  imgComputer.setAttribute('src', '' + pilihanComputer + '.png');
+   const info =document.querySelector('.info');
+   info.innerHTML =hasil;
+  
+});
+
