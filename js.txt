@@ -96,3 +96,12 @@ Cara mendengarkan event
  -mouseenter
  -mouseup
  -whell
+
+
+ macam macam method traversal
+ -parentnode=node
+ -parentElement=element
+ -nextSibling=node
+ -nextelementsibling=element
+ -previoussibling=node
+ =previousElementsibling=element
